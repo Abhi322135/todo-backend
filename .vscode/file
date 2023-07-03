@@ -1,0 +1,887 @@
+{
+  
+  "name": "agriculturalCrop",
+  "collectionName": "agriculturalCrops",
+  "applicationName": "i360",
+  "version": "1.0.0",
+  "resolverFunc": "agriCropResolver",
+  "controls": [
+    {
+      "type": "text",
+      "name": "agriculturalCropId",
+      "isIdentifier": true
+    },
+    {
+      "type": "text",
+      "name": "ingredionPlantScienceId",
+      "ui": {
+        "label": "Ingredion Plant Science Id"
+      }
+    },
+    {
+        "type": "text",
+        "name": "cropName",
+        "ui": {
+          "label": "Crop Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "foodCategoryName",
+        "ui": {
+          "label": "Food Category Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "projectName",
+        "ui": {
+          "label": "Project Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "growthPlatformName",
+        "ui": {
+          "label": "Growth Platform Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "specialtyCategoryName",
+        "ui": {
+          "label": "Specialty Category Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "ipaNumber",
+        "ui": {
+          "label": "Ipa Number"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriculturalCropType",
+        "ui": {
+          "label": "Agricultural Crop Type"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriculturalCropTypeDescription",
+        "ui": {
+          "label": "Agricultural Crop Type Description"
+        }
+      },
+      {
+        "type": "text",
+        "name": "specialityCategory",
+        "ui": {
+          "label": "Speciality Category"
+        }
+      },
+      {
+        "type": "text",
+        "name": "alternativeTradeName",
+        "ui": {
+          "label": "Alternative Trade Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "supplierName",
+        "ui": {
+          "label": "Supplier Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "countryOfSale",
+        "ui": {
+          "label": "Country Of Sale"
+        }
+      },
+      {
+        "type": "text",
+        "name": "dataSource",
+        "ui": {
+          "label": "Data Source"
+        }
+      },
+      {
+        "type": "text",
+        "name": "specialityCategory",
+        "ui": {
+          "label": "specialityCategory"
+        }
+      },
+      {
+        "type": "text",
+        "name": "ingredientComposition",
+        "ui": {
+          "label": "Ingredient Composition"
+        }
+      },
+      {
+        "type": "text",
+        "name": "sapPin",
+        "ui": {
+          "label": "Sap Pin"
+        }
+      },
+      {
+        "type": "text",
+        "name": "plantCode",
+        "ui": {
+          "label": "Plant Code"
+        }
+      },
+      {
+        "type": "text",
+        "name": "regionId",
+        "ui": {
+          "label": "Region Id"
+        }
+      },
+      {
+        "type": "text",
+        "name": "countryId",
+        "ui": {
+          "label": "Country Id"
+        }
+      },
+      {
+        "type": "text",
+        "name": "suggestedUse",
+        "ui": {
+          "label": "Suggested Use"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriculturalCropGeneralToggle",
+        "ui": {
+          "label": "Agricultural Crop General Toggle"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriCropGenAgreement",
+        "ui": {
+          "label": "Agri Crop Gen Agreement"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriCropGenProductName",
+        "ui": {
+          "label": "Agri Crop Gen Product Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriCropGenLegacyFill",
+        "ui": {
+          "label": "Agri Crop Gen Legacy Fill"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriCropGenShelfLife",
+        "ui": {
+          "label": "Agri Crop Gen Shelf Life"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriCropGenSaleStatus",
+        "ui": {
+          "label": "Agri Crop Gen Sale Status"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriCropGenHtsCode",
+        "ui": {
+          "label": "Agri Crop Gen Hts Code"
+        }
+      },
+      {
+        "type": "text",
+        "name": "distributorCountryName",
+        "ui": {
+          "label": "Distributor Country Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "distributorName",
+        "ui": {
+          "label": "Distributor Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "distributorStateName",
+        "ui": {
+          "label": "Distributor State Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "growthPlatformName",
+        "ui": {
+          "label": "Growth Platform Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "projectName",
+        "ui": {
+          "label": "Project Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "moisture",
+        "ui": {
+          "label": "Moisture"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesAsh",
+        "ui": {
+          "label": "Proximates Ash"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesCarbohydrates",
+        "ui": {
+          "label": "Proximates Carbohydrates"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesEnergy",
+        "ui": {
+          "label": "Proximates Energy"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesLipidsCholesterolMg",
+        "ui": {
+          "label": "Proximates Lipids Cholesterol Mg"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesMineralsCopper",
+        "ui": {
+          "label": "Proximates Minerals Copper"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesMineralsIodine",
+        "ui": {
+          "label": "Proximates Minerals Iodine"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesMineralsIron",
+        "ui": {
+          "label": "Proximates Minerals Iron"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesMineralsMagnesium",
+        "ui": {
+          "label": "Proximates Minerals Magnesium"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesMineralsPhosphorus",
+        "ui": {
+          "label": "Proximates Minerals Phosphorus"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesMineralsPotassium",
+        "ui": {
+          "label": "Proximates Minerals Potassium"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesMineralsSodium",
+        "ui": {
+          "label": "Proximates Minerals Sodium"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesMineralsZinc",
+        "ui": {
+          "label": "Proximates Minerals Zinc"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesProtein",
+        "ui": {
+          "label": "Proximates Protein"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesTotalLipid",
+        "ui": {
+          "label": "Proximates Total Lipid"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesVitaminsandOtherVitd2Ug",
+        "ui": {
+          "label": "Proximates Vitamins and Other Vitd2Ug"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesVitaminsandOtherVitd3Ug",
+        "ui": {
+          "label": "Proximates Vitamins and Other Vitd3Ug"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesVitaminsandOtherVitdIU",
+        "ui": {
+          "label": "Proximates Vitamins and Other VitdIU"
+        }
+      },
+      {
+        "type": "text",
+        "name": "proximatesWater",
+        "ui": {
+          "label": "Proximates Water"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriCropGenAgreement",
+        "ui": {
+          "label": "Agri Crop Gen Agreement"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriCropGenHtsCode",
+        "ui": {
+          "label": "Agri Crop Gen Hts Code"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriCropGenLegacyFill",
+        "ui": {
+          "label": "Agri Crop Gen Legacy Fill"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriCropGenProductName",
+        "ui": {
+          "label": "Agri Crop Gen Product Name"
+        }
+      },
+
+      {
+        "type": "text",
+        "name": "agriCropGenSaleStatus",
+        "ui": {
+          "label": "Agri CropGen Sale Status"
+        }
+      },{
+        "type": "text",
+        "name": "agriCropGenShelfLife",
+        "ui": {
+          "label": "Agri Crop Gen Shelf Life"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriculturalCropDescription",
+        "ui": {
+          "label": "Agricultural Crop Description"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriculturalCropGeneralToggle",
+        "ui": {
+          "label": "Agricultural Crop General Toggle"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriculturalCropType",
+        "ui": {
+          "label": "Agricultural Crop Type"
+        }
+      },
+      {
+        "type": "text",
+        "name": "alternativeTradeName",
+        "ui": {
+          "label": "Alternative Trade Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "countryOfSale",
+        "ui": {
+          "label": "Country Of Sale"
+        }
+      },
+      {
+        "type": "text",
+        "name": "dataSource",
+        "ui": {
+          "label": "Data Source"
+        }
+      },
+      {
+        "type": "text",
+        "name": "ingredientComposition",
+        "ui": {
+          "label": "Ingredient Composition"
+        }
+      },
+      {
+        "type": "text",
+        "name": "ipaNumber",
+        "ui": {
+          "label": "Ipa Number"
+        }
+      },
+      {
+        "type": "text",
+        "name": "plantCode",
+        "ui": {
+          "label": "Plant Code"
+        }
+      },
+      {
+        "type": "text",
+        "name": "regionId",
+        "ui": {
+          "label": "Region Id"
+        }
+      },
+      {
+        "type": "text",
+        "name": "sapPin",
+        "ui": {
+          "label": "Sap Pin"
+        }
+      },
+      {
+        "type": "text",
+        "name": "specialityCategory",
+        "ui": {
+          "label": "Speciality Category"
+        }
+      },
+      {
+        "type": "text",
+        "name": "specialtyCategoryName",
+        "ui": {
+          "label": "Specialty Category Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "suggestedUse",
+        "ui": {
+          "label": "Suggested Use"
+        }
+      },
+      {
+        "type": "text",
+        "name": "supplierName",
+        "ui": {
+          "label": "Supplier Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "nutritionalData",
+        "ui": {
+          "label": "Nutritional Data"
+        }
+      },
+      {
+        "type": "text",
+        "name": "ingredientComposition",
+        "ui": {
+          "label": "ingredientComposition"
+        }
+      },
+      {
+        "type": "text",
+        "name": "description",
+        "ui": {
+          "label": "Description"
+        }
+      },
+      {
+        "type": "text",
+        "name": "parameterUnit",
+        "ui": {
+          "label": "Parameter Unit"
+        }
+      },
+      {
+        "type": "text",
+        "name": "parameterValue",
+        "ui": {
+          "label": "Parameter Value"
+        }
+      },
+      {
+        "type": "text",
+        "name": "pricingCountry",
+        "ui": {
+          "label": "Pricing Country"
+        }
+      },
+      {
+        "type": "text",
+        "name": "pricingProperty",
+        "ui": {
+          "label": "Pricing Property"
+        }
+      },
+      {
+        "type": "text",
+        "name": "pricingUnit",
+        "ui": {
+          "label": "Pricing Unit"
+        }
+      },
+      {
+        "type": "text",
+        "name": "regionName",
+        "ui": {
+          "label": "Region Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "typeOfLocation",
+        "ui": {
+          "label": "Type Of Location"
+        }
+      },
+      {
+        "type": "text",
+        "name": "countryOfAllergen",
+        "ui": {
+          "label": "Country Of Allergen"
+        }
+      },
+      {
+        "type": "text",
+        "name": "isCertify",
+        "ui": {
+          "label": "Is Certify"
+        }
+      },
+      {
+        "type": "text",
+        "name": "listOfAllergen",
+        "ui": {
+          "label": "List Of Allergen"
+        }
+      },
+      {
+        "type": "text",
+        "name": "specificAllergenName",
+        "ui": {
+          "label": "Specific Allergen Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "technicalSheet",
+        "ui": {
+          "label": "Technical Sheet"
+        }
+      },
+      {
+        "type": "text",
+        "name": "description",
+        "ui": {
+          "label": "Description"
+        }
+      },
+      {
+        "type": "text",
+        "name": "comment",
+        "ui": {
+          "label": "Comment"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriculturalCropType",
+        "ui": {
+          "label": "Agricultural Crop Type"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agreementDetails",
+        "ui": {
+          "label": "Agreement Details"
+        }
+      },
+      {
+        "type": "text",
+        "name": "alternativeTradeName",
+        "ui": {
+          "label": "Alternative Trade Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "countryId",
+        "ui": {
+          "label": "Country Id"
+        }
+      },
+      {
+        "type": "text",
+        "name": "countryOfSale",
+        "ui": {
+          "label": "Country Of Sale"
+        }
+      },
+      {
+        "type": "text",
+        "name": "dataSource",
+        "ui": {
+          "label": "Data Source"
+        }
+      },
+      {
+        "type": "text",
+        "name": "grothplatformId",
+        "ui": {
+          "label": "Grothplatform Id"
+        }
+      },
+      {
+        "type": "text",
+        "name": "ingredientComposition",
+        "ui": {
+          "label": "Ingredient Composition"
+        }
+      },
+      {
+        "type": "text",
+        "name": "ingredientDeclaration",
+        "ui": {
+          "label": "Ingredient Declaration"
+        }
+      },
+      {
+        "type": "text",
+        "name": "ipaNumber",
+        "ui": {
+          "label": "Ipa Number"
+        }
+      },
+      {
+        "type": "text",
+        "name": "name",
+        "ui": {
+          "label": "Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "plantCode",
+        "ui": {
+          "label": "Plant Code"
+        }
+      },
+      {
+        "type": "text",
+        "name": "regionId",
+        "ui": {
+          "label": "Region Id"
+        }
+      },
+      {
+        "type": "text",
+        "name": "sapPin",
+        "ui": {
+          "label": "Sap Pin"
+        }
+      },
+      {
+        "type": "text",
+        "name": "shellLife",
+        "ui": {
+          "label": "Shell Life"
+        }
+      },
+      
+      {
+        "type": "text",
+        "name": "specialtyCategoryId",
+        "ui": {
+          "label": "Specialty Category Id"
+        }
+      },
+      {
+        "type": "text",
+        "name": "specialtyCategoryName",
+        "ui": {
+          "label": "Specialty Category Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "supplierName",
+        "ui": {
+          "label": "Supplier Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "technicalSheet",
+        "ui": {
+          "label": "Technical Sheet"
+        }
+      },
+      {
+        "type": "text",
+        "name": "ingrExperimentalId",
+        "ui": {
+          "label": "Ingr Experimental Id"
+        }
+      },
+
+      {
+        "type": "text",
+        "name": "productName",
+        "ui": {
+          "label": "Product Name"
+        }
+      },
+
+      {
+        "type": "text",
+        "name": "ingredientTypeId",
+        "ui": {
+          "label": "Ingredient Type Id"
+        }
+      },
+      {
+        "type": "text",
+        "name": "ingredientTypeName",
+        "ui": {
+          "label": "Ingredient Type Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "ingredients",
+        "ui": {
+          "label": "Ingredients"
+        }
+      },
+      {
+        "type": "text",
+        "name": "percent",
+        "ui": {
+          "label": "Percent"
+        }
+      },
+      {
+        "type": "text",
+        "name": "isActive",
+        "ui": {
+          "label": "Is Active"
+        }
+      },
+      {
+        "type": "text",
+        "name": "growthPlatformName",
+        "ui": {
+          "label": "Growth Platform Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "isProductCoveredByLegalAgreement",
+        "ui": {
+          "label": "Is Product Covered By Legal Agreement"
+        }
+      },
+      {
+        "type": "text",
+        "name": "saleStatus",
+        "ui": {
+          "label": "Sale Status"
+        }
+      },
+      {
+        "type": "text",
+        "name": "updatedBy",
+        "ui": {
+          "label": "Updated By"
+        }
+      },
+      {
+        "type": "text",
+        "name": "updatedByName",
+        "ui": {
+          "label": "Updated By Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "updatedTime",
+        "ui": {
+          "label": "Updated Time"
+        }
+      },
+      {
+        "type": "text",
+        "name": "allergens",
+        "ui": {
+          "label": "Allergens"
+        }
+      },
+      {
+        "type": "text",
+        "name": "isallergen",
+        "ui": {
+          "label": "Isallergen"
+        }
+      }
+
+  ]
+}

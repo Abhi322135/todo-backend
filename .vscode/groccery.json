@@ -1,0 +1,527 @@
+{
+"controls": [
+    
+    {
+      "type": "text",
+      "name": "groceryRecipeId",
+      "ui": {
+        "label": "Grocery Recipe Id"
+      }
+    },
+    {
+        "type": "text",
+        "name": "productName",
+        "ui": {
+          "label": "Product Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "growthPlatformName",
+        "ui": {
+          "label": "Growth Platform Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "generalIngredientDeclaration",
+        "ui": {
+          "label": "General Ingredient Declaration"
+        }
+      },
+      {
+        "type": "text",
+        "name": "generalDescription",
+        "ui": {
+          "label": "General Description"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriculturalOrFoodCatId",
+        "ui": {
+          "label": "Agricultural Or Food Cat Id"
+        }
+      },
+      {
+        "type": "text",
+        "name": "agriculturalOrFoodCatName",
+        "ui": {
+          "label": "Agricultural Or Food Cat Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "suggestedUse",
+        "ui": {
+          "label": "Suggested Use"
+        }
+      },
+      {
+        "type": "text",
+        "name": "specialtyCategoryId",
+        "ui": {
+          "label": "Specialty Category Id"
+        }
+      },
+      {
+        "type": "text",
+        "name": "specialtyCategoryName",
+        "ui": {
+          "label": "Specialty Category Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "shellLife",
+        "ui": {
+          "label": "Shell Life"
+        }
+      },
+      {
+        "type": "text",
+        "name": "technicalSheet",
+        "ui": {
+          "label": "Technical Sheet"
+        }
+      },
+      {
+        "type": "text",
+        "name": "isActive",
+        "ui": {
+          "label": "Is Active"
+        }
+      },
+      {
+        "type": "text",
+        "name": "isDeleted",
+        "ui": {
+          "label": "Is Deleted"
+        }
+      },
+
+      {
+      "type": "text",
+      "name": "createdBy",
+      "ui": {
+        "label": "Created By"
+      }
+    },
+    {
+      "type": "text",
+      "name": "createdByName",
+      "ui": {
+        "label": "Created By Name"
+      }
+    },
+    {
+      "type": "text",
+      "name": "createdTime",
+      "ui": {
+        "label": "Created Time"
+      }
+    },
+    {
+      "type": "text",
+      "name": "ingredionPlantScienceId",
+      "ui": {
+        "label": "Ingredion Plant Science Id"
+      }
+    },
+    {
+        "type": "text",
+        "name": "ingredionPlantScienceId",
+        "ui": {
+          "label": "Ingredion Plant Science Id"
+        }
+      },
+      {
+        "type": "text",
+        "name": "chemicalName",
+        "ui": {
+          "label": "Chemical Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "manufacturerLocation",
+        "ui": {
+          "label": "Manufacturer Location"
+        }
+      },
+
+      {
+      "type": "text",
+      "name": "manufacturerName",
+      "ui": {
+        "label": "Manufacturer Name"
+      }
+    },
+    {
+        "type": "text",
+        "name": "productDesc",
+        "ui": {
+          "label": "Product Desc"
+        }
+      },
+      {
+        "type": "text",
+        "name": "productType",
+        "ui": {
+          "label": "Product Type"
+        }
+      },
+      {
+        "type": "text",
+        "name": "productTypeId",
+        "ui": {
+          "label": "Product Type Id"
+        }
+      },
+      {
+        "type": "text",
+        "name": "updatedBy",
+        "ui": {
+          "label": "Updated By"
+        }
+      },
+
+      {
+        "type": "text",
+        "name": "updatedByName",
+        "ui": {
+          "label": "Updated By Name"
+        }
+      },
+      {
+        "type": "text",
+        "name": "updatedTime",
+        "ui": {
+          "label": "Updated Time"
+        }
+      },
+      {
+        "type": "text",
+        "name": "cookingInstruction",
+        "ui": {
+          "label": "Cooking Instruction"
+        }
+      },
+      {
+        "type": "text",
+        "name": "certifications",
+        "ui": {
+          "label": "Certifications"
+        }
+      },
+      {
+        "type": "text",
+        "name": "isallergen",
+        "ui": {
+          "label": "Isallergen"
+        }
+      },
+      {
+        "type": "text",
+        "name": "suppliers",
+        "ui": {
+          "label": "Suppliers"
+        }
+      },
+      {
+        "type": "text",
+        "name": "pricing",
+        "ui": {
+          "label": "Pricing"
+        }
+      },
+      {
+        "type": "text",
+        "name": "DateCode",
+        "ui": {
+          "label": "Date Code"
+        }
+      },
+      {
+        "type": "text",
+        "name": "GS1",
+        "ui": {
+          "label": "GS1"
+        }
+      },
+
+      {
+      "type": "text",
+      "name": "NFAmountPerServing",
+      "ui": {
+        "label": "NF Amount Per Serving"
+      }
+    },
+    {
+        "type": "text",
+        "name": "NFCalPerGramCarbohydrate",
+        "ui": {
+          "label": "NFCal Per Gram Carbohydrate"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFCalPerGramFat",
+        "ui": {
+          "label": "NFCal Per Gram Fat"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFCalPerGramProtein",
+        "ui": {
+          "label": "NFCal Per Gram Protein"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVCalcium",
+        "ui": {
+          "label": "NFDV Calcium"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVCarbohydrate",
+        "ui": {
+          "label": "NFDV Carbohydrate"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVCholesterol",
+        "ui": {
+          "label": "NFDV Cholesterol"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVDietaryFiber",
+        "ui": {
+          "label": "NFDVD ietary Fiber"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVFolicAcid",
+        "ui": {
+          "label": "NFDV Folic Acid"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVIron",
+        "ui": {
+          "label": "NFDV Iron"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVNiacin",
+        "ui": {
+          "label": "NFDV Niacin"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVPotassium",
+        "ui": {
+          "label": "NFDV Potassium"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVRiboflavin",
+        "ui": {
+          "label": "NFDV Riboflavin"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVSatuaratedFat",
+        "ui": {
+          "label": "NFDV Satuarated Fat"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVSodium",
+        "ui": {
+          "label": "NFDV Sodium"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVThiamin",
+        "ui": {
+          "label": "NFDV Thiamin"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVTotalFat",
+        "ui": {
+          "label": "NFDV Total Fat"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVVitaminA",
+        "ui": {
+          "label": "NFDV VitaminA"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVVitaminC",
+        "ui": {
+          "label": "NFDV VitaminC"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFDVVitaminD",
+        "ui": {
+          "label": "NFDV VitaminD"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFIncludesAddedSugar",
+        "ui": {
+          "label": "NF Includes Added Sugar"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFLabel",
+        "ui": {
+          "label": "NF Label"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFMonounsaturatedFat",
+        "ui": {
+          "label": "NF Monounsaturated Fat"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFPolyunsaturatedFat",
+        "ui": {
+          "label": "NF Polyunsaturated Fat"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFAmountPerServing",
+        "ui": {
+          "label": "NFAmountPerServing"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFProtein",
+        "ui": {
+          "label": "NF Protein"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFServingPerContainer",
+        "ui": {
+          "label": "NF Serving Per Container"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFServingSize",
+        "ui": {
+          "label": "NF Serving Size"
+        }
+      },
+      {
+        "type": "text",
+        "name": "NFSugar",
+        "ui": {
+          "label": "NF Sugar"
+        }
+      },
+      {
+        "type": "text",
+        "name": "UPCA",
+        "ui": {
+          "label": "UPCA"
+        }
+      },
+      {
+        "type": "text",
+        "name": "barcodeImage",
+        "ui": {
+          "label": "Barcode Image"
+        }
+      },
+      {
+        "type": "text",
+        "name": "composition",
+        "ui": {
+          "label": "Composition"
+        }
+      },
+      {
+        "type": "text",
+        "name": "ingredientStatement",
+        "ui": {
+          "label": "Ingredient Statement"
+        }
+      },
+      {
+        "type": "text",
+        "name": "label",
+        "ui": {
+          "label": "Label"
+        }
+      },
+      {
+        "type": "text",
+        "name": "productImageBack",
+        "ui": {
+          "label": "Product Image Back"
+        }
+      },
+      {
+        "type": "text",
+        "name": "productImageFont",
+        "ui": {
+          "label": "Product Image Font"
+        }
+      },
+      {
+        "type": "text",
+        "name": "productImageSide",
+        "ui": {
+          "label": "Product Image Side"
+        }
+      },
+      {
+        "type": "text",
+        "name": "statusId",
+        "ui": {
+          "label": "Status Id"
+        }
+      },
+      {
+        "type": "text",
+        "name": "statusText",
+        "ui": {
+          "label": "Status Text"
+        }
+      }]
+}
+    
